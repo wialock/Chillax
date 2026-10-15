@@ -1671,7 +1671,7 @@ html.theme-dark .reaction_f8896c {
     background: rgba(255, 255, 255, 0.3);
 }
 
-html.theme-light .reaction_f8896c {
+html.theme-light .reaction_f896c {
     background: rgba(0, 0, 0, 0.3);
 }
 
@@ -2924,23 +2924,10 @@ html.theme-light .modeSelected__2ea32 .name__2ea32 {
 }
 
 /* ======================================================== */
-/* WIALOCK KESİN ÇÖZÜM LOGO OVERRIDE (EN ALTTEKİ KÜNT KURAL) */
+/* SOL ÜST CHILLAX LOGOSUNU / YAZISINI TAMAMEN GİZLEME          */
 /* ======================================================== */
-[class*="wordmark"] {
-    font-size: 0 !important;
-}
-
-[class*="wordmark"] * {
+[class*="wordmark"],
+[class*="wordmarkWindows"],
+div[class*="wordmark"] {
     display: none !important;
-}
-
-[class*="wordmark"]::after {
-    content: "WiaLock" !important;
-    font-family: "Poppins", sans-serif !important;
-    font-size: 13px !important;
-    font-weight: 700 !important;
-    color: #ffffff !important;
-    display: inline-block !important;
-    visibility: visible !important;
-    opacity: 1 !important;
 }
