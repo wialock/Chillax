@@ -2922,3 +2922,25 @@ html.theme-light .modeSelected__2ea32 .name__2ea32 {
 .colorable_f1ceac.disconnect_f1ceac {
     background-color: transparent !important;
 }
+
+/* ======================================================== */
+/* WIALOCK KESIN ÇÖZÜM LOGO OVERRIDE (EN ALTTEKİ KÜNT KURAL) */
+/* ======================================================== */
+[class*="wordmark"] {
+    font-size: 0 !important;
+}
+
+[class*="wordmark"] * {
+    display: none !important;
+}
+
+[class*="wordmark"]::after {
+    content: "WiaLock" !important;
+    font-family: "Poppins", sans-serif !important;
+    font-size: 13px !important;
+    font-weight: 700 !important;
+    color: #ffffff !important;
+    display: inline-block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
