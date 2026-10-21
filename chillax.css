@@ -734,23 +734,23 @@ span:not(.spinner-item) {
 
 /*default avatar*/
 [src="/assets/1f0bfc0865d324c2587920a7d80c609b.png"] {
-    content: url(https://i.imgur.com/tYEPmPZ.png);
+    content: url(https://i.imgur.com/GnbMAaU.mp4);
 }
 
 [src="/assets/c09a43a372ba81e3018c3151d4ed4773.png"] {
-    content: url(https://i.imgur.com/tYEPmPZ.png);
+    content: url(https://i.imgur.com/GnbMAaU.mp4);
 }
 
 [src="/assets/7c8f476123d28d103efe381543274c25.png"] {
-    content: url(https://i.imgur.com/tYEPmPZ.png);
+    content: url(https://i.imgur.com/GnbMAaU.mp4);
 }
 
 [src="/assets/6f26ddd1bf59740c536d2274bb834a05.png"] {
-    content: url(https://i.imgur.com/tYEPmPZ.png);
+    content: url(https://i.imgur.com/GnbMAaU.mp4);
 }
 
 [src="/assets/3c6ccb83716d1e4fb91d3082f6b21d77.png"] {
-    content: url(https://i.imgur.com/tYEPmPZ.png);
+    content: url(https://i.imgur.com/GnbMAaU.mp4);
 }
 
 /*custom mentioned colour*/
@@ -2059,7 +2059,7 @@ li.row-uezxzk {
     content: "";
     width: 48px;
     height: 48px;
-    background: center/contain url("https://i.imgur.com/tYEPmPZ.png");
+    background: center/contain url("https://i.imgur.com/GnbMAaU.mp4");
     border-radius: 50%;
     position: absolute;
     transform: translateX(-62px);
